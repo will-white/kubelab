@@ -12,6 +12,7 @@ spec:
   jobTemplate:
     spec:
       backoffLimit: 3
+      timeout: 2m0s
       ttlSecondsAfterFinished: 300
       template:
         spec:
